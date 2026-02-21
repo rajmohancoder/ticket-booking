@@ -36,13 +36,13 @@ export function Header() {
                     <Link href="/" className="text-sm font-medium transition-colors hover:text-primary">
                         Home
                     </Link>
-                    <Link href="#events" className="text-sm font-medium transition-colors hover:text-primary">
+                    <Link href="/#events" className="text-sm font-medium transition-colors hover:text-primary">
                         Events
                     </Link>
-                    <Link href="#about" className="text-sm font-medium transition-colors hover:text-primary">
+                    <Link href="/#about" className="text-sm font-medium transition-colors hover:text-primary">
                         About
                     </Link>
-                    <Link href="#contact" className="text-sm font-medium transition-colors hover:text-primary">
+                    <Link href="/#contact" className="text-sm font-medium transition-colors hover:text-primary">
                         Contact Us
                     </Link>
                     <div className="ml-4 flex items-center gap-3">
