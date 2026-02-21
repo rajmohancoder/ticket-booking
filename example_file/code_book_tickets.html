@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Book Tickets - Temple of God Muruga</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#f29e0d",
+              "primary-dark": "#d68b00",
+              "background-light": "#f8f7f5",
+              "background-dark": "#221b10",
+              "surface-light": "#ffffff",
+              "surface-dark": "#2a2215",
+              "text-main": "#181511",
+              "text-muted": "#8a7b60",
+            },
+            fontFamily: {
+              "display": ["Montserrat", "sans-serif"],
+              "sans": ["Montserrat", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "2xl": "1rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;}
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #d1d5db;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #9ca3af;
+        }
+        details > summary {
+            list-style: none;
+        }
+        details > summary::-webkit-details-marker {
+            display: none;
+        }.no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-text-main dark:text-gray-100 font-sans transition-colors duration-200 flex flex-col min-h-screen">
+<header class="sticky top-0 z-50 bg-surface-light/95 dark:bg-surface-dark/95 backdrop-blur-md border-b border-[#f5f3f0] dark:border-[#3a3022]">
+<div class="px-4 md:px-10 py-3 flex items-center justify-between max-w-7xl mx-auto">
+<div class="flex items-center gap-4">
+<div class="size-8 text-primary">
+<span class="material-symbols-outlined text-3xl">temple_hindu</span>
+</div>
+<h2 class="text-lg md:text-xl font-bold leading-tight tracking-tight">Temple of God Muruga</h2>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Home</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Events</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">About</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Contact Us</a>
+<div class="flex items-center gap-3 ml-4">
+<button aria-label="Toggle Dark Mode" class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
+<span class="material-symbols-outlined text-xl">dark_mode</span>
+</button>
+<button class="flex items-center justify-center rounded-lg h-9 px-4 bg-primary hover:bg-primary-dark text-black text-sm font-bold transition-colors shadow-lg shadow-primary/20">
+                    Book Tickets
+                </button>
+</div>
+</nav>
+<button class="md:hidden p-2 text-text-main dark:text-white">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</header>
+<main class="flex-grow max-w-7xl mx-auto px-4 md:px-10 py-8 w-full space-y-12">
+<div>
+<div class="flex items-center gap-2 text-xs font-bold text-text-muted uppercase tracking-wider mb-2">
+<span class="opacity-60">Home</span>
+<span class="material-symbols-outlined text-[10px]">chevron_right</span>
+<span class="text-primary">Book Tickets</span>
+</div>
+</div>
+<div class="relative w-full rounded-2xl overflow-hidden shadow-xl group">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB0w94-dy5G4Xp1u36ndP55I-IYuUpZShxaDb-33s_nsxydcjqZymO7sNdVD1Bl68lWjyNt0YuonoVWFlsVJppbCWE-8cuVomddj7sI0MUw9qf9_IeeW4irTjXdyCMCBTfWaIb_E6nDSwIGgQp0GHcz8VCGlw2lOo0O77riXQ67MjKq8ANCwyKeeD79A6OF9mma7Xe4fNJaQ1nJkq50KsEp9gFtd6aEGgaE5fQo8zo4Z-AZZGc295rJ3CPsOEX833ymkni87TJgl04');"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent"></div>
+<div class="relative z-10 p-8 md:p-16 flex flex-col items-center justify-center text-center min-h-[400px]">
+<h1 class="text-3xl md:text-5xl font-black text-white mb-6 leading-tight drop-shadow-md">
+                Book Your Tickets to the<br/>Hindu Temple of God Muruga
+            </h1>
+<p class="text-gray-200 text-lg md:text-xl max-w-2xl mb-8 leading-relaxed drop-shadow-sm font-medium">
+                Skip the queues and secure your divine darshan. Select your preferred date, add devotee details, and receive your e-ticket instantly on your device.
+            </p>
+<a class="flex items-center gap-2 bg-primary hover:bg-primary-dark text-black font-bold py-4 px-8 rounded-full transition-all hover:scale-105 shadow-lg shadow-primary/30" href="#ticket-form">
+<span>Proceed to Book</span>
+<span class="material-symbols-outlined">arrow_downward</span>
+</a>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8 scroll-mt-24" id="ticket-form">
+<div class="lg:col-span-2 bg-surface-light dark:bg-surface-dark p-6 md:p-8 rounded-2xl border border-gray-100 dark:border-gray-800 shadow-sm">
+<div class="flex items-center gap-3 mb-8 pb-4 border-b border-gray-100 dark:border-gray-800">
+<span class="flex items-center justify-center size-10 rounded-full bg-primary/10 text-primary">
+<span class="material-symbols-outlined">confirmation_number</span>
+</span>
+<h2 class="text-2xl font-bold text-text-main dark:text-white">Ticket Booking Form</h2>
+</div>
+<form class="space-y-8">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div>
+<label class="block text-sm font-bold text-text-muted mb-2 uppercase tracking-wide">Select Date</label>
+<div class="relative">
+<span class="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none">
+<span class="material-symbols-outlined text-xl">calendar_month</span>
+</span>
+<input class="w-full pl-10 pr-4 py-3 rounded-lg border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-black/20 focus:border-primary focus:ring-primary text-text-main dark:text-white transition-shadow" type="date"/>
+</div>
+</div>
+<div>
+<label class="block text-sm font-bold text-text-muted mb-2 uppercase tracking-wide">Darshan Type</label>
+<div class="flex items-stretch gap-3">
+<div class="relative flex-grow">
+<span class="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none">
+<span class="material-symbols-outlined text-xl">stars</span>
+</span>
+<select class="w-full h-full pl-10 pr-4 py-3 rounded-lg border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-black/20 focus:border-primary focus:ring-primary text-text-main dark:text-white transition-shadow appearance-none cursor-pointer">
+<option value="50">Standard (₹50)</option>
+<option selected="" value="150">Special Darshan (₹150)</option>
+<option value="500">VIP Darshan (₹500)</option>
+</select>
+<span class="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none">
+<span class="material-symbols-outlined">expand_more</span>
+</span>
+</div>
+<div class="shrink-0 bg-primary/10 dark:bg-primary/20 border border-primary/20 rounded-lg px-4 flex flex-col items-center justify-center min-w-[100px]">
+<span class="text-[10px] text-text-muted font-bold uppercase leading-tight mb-0.5">Total</span>
+<span class="text-xl font-black text-primary leading-tight">₹150</span>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-gray-50 dark:bg-gray-800/30 p-5 rounded-xl border border-dashed border-gray-300 dark:border-gray-700">
+<label class="block text-sm font-bold text-text-muted mb-3 uppercase tracking-wide flex items-center gap-2">
+<span class="material-symbols-outlined text-lg text-primary">schedule</span>
+                                Select Time Slot
+                            </label>
+<div class="relative">
+<span class="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none">
+<span class="material-symbols-outlined text-xl">schedule</span>
+</span>
+<select class="w-full pl-12 pr-4 py-4 rounded-lg border-gray-200 dark:border-gray-700 bg-white dark:bg-black/40 focus:border-primary focus:ring-primary text-text-main dark:text-white transition-shadow appearance-none cursor-pointer text-base md:text-lg font-medium shadow-sm">
+<option>Select a time slot</option>
+<option>06:00 AM - 08:00 AM</option>
+<option selected="">08:00 AM - 10:00 AM</option>
+<option>10:00 AM - 12:00 PM</option>
+<option>04:00 PM - 06:00 PM</option>
+<option>06:00 PM - 09:00 PM</option>
+</select>
+<span class="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none">
+<span class="material-symbols-outlined">expand_more</span>
+</span>
+</div>
+<p class="text-xs text-primary mt-2 font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">info</span>
+                                Available slots update based on selected date and darshan type
+                            </p>
+</div>
+<div>
+<label class="block text-sm font-bold text-text-muted mb-4 uppercase tracking-wide">Number of Tickets</label>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+<div class="bg-gray-50 dark:bg-gray-800/40 p-4 rounded-xl border border-gray-100 dark:border-gray-700">
+<div class="flex justify-between items-center mb-2">
+<span class="text-sm font-bold text-text-main dark:text-white">Adult</span>
+<span class="text-xs font-semibold text-text-muted">12+ yrs</span>
+</div>
+<div class="flex items-center justify-between bg-white dark:bg-black/20 rounded-lg p-1 border border-gray-200 dark:border-gray-700">
+<button class="size-8 flex items-center justify-center rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors text-primary" type="button">
+<span class="material-symbols-outlined text-lg">remove</span>
+</button>
+<input class="w-8 text-center bg-transparent border-none p-0 text-text-main dark:text-white font-bold focus:ring-0" readonly="" type="text" value="1"/>
+<button class="size-8 flex items-center justify-center rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors text-primary" type="button">
+<span class="material-symbols-outlined text-lg">add</span>
+</button>
+</div>
+</div>
+<div class="bg-gray-50 dark:bg-gray-800/40 p-4 rounded-xl border border-gray-100 dark:border-gray-700">
+<div class="flex justify-between items-center mb-2">
+<span class="text-sm font-bold text-text-main dark:text-white">Child</span>
+<span class="text-xs font-semibold text-text-muted">5-11 yrs</span>
+</div>
+<div class="flex items-center justify-between bg-white dark:bg-black/20 rounded-lg p-1 border border-gray-200 dark:border-gray-700">
+<button class="size-8 flex items-center justify-center rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors text-primary" type="button">
+<span class="material-symbols-outlined text-lg">remove</span>
+</button>
+<input class="w-8 text-center bg-transparent border-none p-0 text-text-main dark:text-white font-bold focus:ring-0" readonly="" type="text" value="0"/>
+<button class="size-8 flex items-center justify-center rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors text-primary" type="button">
+<span class="material-symbols-outlined text-lg">add</span>
+</button>
+</div>
+</div>
+<div class="bg-gray-50 dark:bg-gray-800/40 p-4 rounded-xl border border-gray-100 dark:border-gray-700">
+<div class="flex justify-between items-center mb-2">
+<span class="text-sm font-bold text-text-main dark:text-white">Senior</span>
+<span class="text-xs font-semibold text-text-muted">60+ yrs</span>
+</div>
+<div class="flex items-center justify-between bg-white dark:bg-black/20 rounded-lg p-1 border border-gray-200 dark:border-gray-700">
+<button class="size-8 flex items-center justify-center rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors text-primary" type="button">
+<span class="material-symbols-outlined text-lg">remove</span>
+</button>
+<input class="w-8 text-center bg-transparent border-none p-0 text-text-main dark:text-white font-bold focus:ring-0" readonly="" type="text" value="0"/>
+<button class="size-8 flex items-center justify-center rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors text-primary" type="button">
+<span class="material-symbols-outlined text-lg">add</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<div>
+<label class="block text-sm font-bold text-text-muted mb-2 uppercase tracking-wide">Special Requirements</label>
+<textarea class="w-full p-4 rounded-lg border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-black/20 focus:border-primary focus:ring-primary text-text-main dark:text-white transition-shadow" placeholder="E.g., Wheelchair assistance needed, Senior citizen support..." rows="3"></textarea>
+</div>
+<button class="w-full bg-primary hover:bg-primary-dark text-black text-lg font-bold py-4 px-8 rounded-xl transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5" type="button">
+                    Book Now
+                </button>
+</form>
+</div>
+<div class="space-y-6">
+<div class="bg-blue-50 dark:bg-blue-900/10 p-6 rounded-2xl border border-blue-100 dark:border-blue-800/30">
+<h3 class="text-lg font-bold text-blue-800 dark:text-blue-300 mb-4 flex items-center gap-2">
+<span class="material-symbols-outlined">info</span>
+                    Booking Guidelines
+                </h3>
+<ul class="space-y-4">
+<li class="flex gap-3 text-sm text-blue-900 dark:text-blue-200">
+<span class="material-symbols-outlined text-base shrink-0 mt-0.5">check_circle</span>
+<span>Please carry a valid government-issued ID proof during your visit.</span>
+</li>
+<li class="flex gap-3 text-sm text-blue-900 dark:text-blue-200">
+<span class="material-symbols-outlined text-base shrink-0 mt-0.5">check_circle</span>
+<span>Dress code is strictly traditional. Shorts and sleeveless attire are not permitted.</span>
+</li>
+<li class="flex gap-3 text-sm text-blue-900 dark:text-blue-200">
+<span class="material-symbols-outlined text-base shrink-0 mt-0.5">check_circle</span>
+<span>Electronic gadgets like mobile phones and cameras are prohibited inside the sanctum.</span>
+</li>
+</ul>
+</div>
+<div class="bg-surface-light dark:bg-surface-dark p-6 rounded-2xl border border-gray-100 dark:border-gray-800 shadow-sm">
+<h3 class="font-bold text-text-main dark:text-white mb-2">Need Help?</h3>
+<p class="text-sm text-text-muted mb-4">Contact our temple office for assistance with booking.</p>
+<a class="flex items-center gap-2 text-primary font-bold text-sm hover:underline" href="#">
+<span class="material-symbols-outlined text-lg">call</span>
+                    +91 413 222 1234
+                </a>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+<div class="space-y-6">
+<h2 class="text-2xl font-bold text-text-main dark:text-white flex items-center gap-3">
+<span class="w-1.5 h-8 bg-primary rounded-full"></span>
+                Booking Policies
+            </h2>
+<div class="bg-surface-light dark:bg-surface-dark p-6 rounded-2xl border border-gray-100 dark:border-gray-800 shadow-sm">
+<div class="space-y-6">
+<div class="flex gap-4">
+<div class="size-10 rounded-full bg-red-50 dark:bg-red-900/20 flex items-center justify-center text-red-500 shrink-0">
+<span class="material-symbols-outlined">event_busy</span>
+</div>
+<div>
+<h3 class="font-bold text-lg text-text-main dark:text-white mb-1">Cancellation Policy</h3>
+<p class="text-sm text-text-muted leading-relaxed">
+                                Tickets can be cancelled up to 24 hours prior to the booked slot. A cancellation fee of ₹50 per ticket applies. No cancellations allowed on the day of visit.
+                            </p>
+</div>
+</div>
+<div class="w-full h-px bg-gray-100 dark:bg-gray-800"></div>
+<div class="flex gap-4">
+<div class="size-10 rounded-full bg-green-50 dark:bg-green-900/20 flex items-center justify-center text-green-600 shrink-0">
+<span class="material-symbols-outlined">payments</span>
+</div>
+<div>
+<h3 class="font-bold text-lg text-text-main dark:text-white mb-1">Refund Process</h3>
+<p class="text-sm text-text-muted leading-relaxed">
+                                Approved refunds will be credited back to the original payment source within 5-7 working days.
+                            </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="space-y-6">
+<h2 class="text-2xl font-bold text-text-main dark:text-white flex items-center gap-3">
+<span class="w-1.5 h-8 bg-primary rounded-full"></span>
+                Frequently Asked Questions
+            </h2>
+<div class="space-y-3">
+<details class="group bg-surface-light dark:bg-surface-dark rounded-xl border border-gray-100 dark:border-gray-800 shadow-sm overflow-hidden">
+<summary class="flex justify-between items-center p-5 font-bold cursor-pointer list-none text-text-main dark:text-white hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors">
+<span>Is there an entry fee for general darshan?</span>
+<span class="transition-transform duration-300 group-open:rotate-180">
+<span class="material-symbols-outlined">expand_more</span>
+</span>
+</summary>
+<div class="text-text-muted px-5 pb-5 text-sm leading-relaxed border-t border-gray-50 dark:border-gray-800 pt-3">
+                        General Dharma Darshan is free for all devotees. This booking page is for special darshan queues which allow for a quicker entry.
+                    </div>
+</details>
+<details class="group bg-surface-light dark:bg-surface-dark rounded-xl border border-gray-100 dark:border-gray-800 shadow-sm overflow-hidden">
+<summary class="flex justify-between items-center p-5 font-bold cursor-pointer list-none text-text-main dark:text-white hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors">
+<span>Can I reschedule my booking?</span>
+<span class="transition-transform duration-300 group-open:rotate-180">
+<span class="material-symbols-outlined">expand_more</span>
+</span>
+</summary>
+<div class="text-text-muted px-5 pb-5 text-sm leading-relaxed border-t border-gray-50 dark:border-gray-800 pt-3">
+                        Rescheduling is permitted once per booking, subject to availability, at least 48 hours before the scheduled time.
+                    </div>
+</details>
+<details class="group bg-surface-light dark:bg-surface-dark rounded-xl border border-gray-100 dark:border-gray-800 shadow-sm overflow-hidden">
+<summary class="flex justify-between items-center p-5 font-bold cursor-pointer list-none text-text-main dark:text-white hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors">
+<span>Is parking facility available?</span>
+<span class="transition-transform duration-300 group-open:rotate-180">
+<span class="material-symbols-outlined">expand_more</span>
+</span>
+</summary>
+<div class="text-text-muted px-5 pb-5 text-sm leading-relaxed border-t border-gray-50 dark:border-gray-800 pt-3">
+                        Yes, there is a designated parking area near the North Tower entrance. Parking fees apply.
+                    </div>
+</details>
+</div>
+</div>
+</div>
+</main>
+<footer class="bg-surface-dark text-white pt-16 pb-8 border-t border-white/5 mt-auto">
+<div class="max-w-7xl mx-auto px-4 md:px-10">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+<div class="space-y-4">
+<div class="flex items-center gap-3">
+<div class="size-8 text-primary">
+<span class="material-symbols-outlined text-3xl">temple_hindu</span>
+</div>
+<h2 class="text-xl font-bold">Temple of<br/>God Muruga</h2>
+</div>
+<p class="text-gray-400 text-sm leading-relaxed">
+                    A place of solace, divinity, and heritage. Connecting devotees to the divine for over three centuries.
+                </p>
+</div>
+<div>
+<h3 class="text-lg font-bold mb-4">Quick Links</h3>
+<ul class="space-y-3">
+<li><a class="text-gray-400 hover:text-primary transition-colors text-sm" href="#">Book Tickets</a></li>
+<li><a class="text-gray-400 hover:text-primary transition-colors text-sm" href="#">Upcoming Events</a></li>
+<li><a class="text-gray-400 hover:text-primary transition-colors text-sm" href="#">Donations</a></li>
+<li><a class="text-gray-400 hover:text-primary transition-colors text-sm" href="#">Gallery</a></li>
+<li><a class="text-gray-400 hover:text-primary transition-colors text-sm" href="#">Live Darshan</a></li>
+</ul>
+</div>
+<div>
+<h3 class="text-lg font-bold mb-4">Information</h3>
+<ul class="space-y-3">
+<li><a class="text-gray-400 hover:text-primary transition-colors text-sm" href="#">Terms &amp; Conditions</a></li>
+<li><a class="text-gray-400 hover:text-primary transition-colors text-sm" href="#">Privacy Policy</a></li>
+<li><a class="text-gray-400 hover:text-primary transition-colors text-sm" href="#">Cancellation Policy</a></li>
+<li><a class="text-gray-400 hover:text-primary transition-colors text-sm" href="#">Temple Rules</a></li>
+</ul>
+</div>
+<div>
+<h3 class="text-lg font-bold mb-4">Contact Us</h3>
+<ul class="space-y-4">
+<li class="flex items-start gap-3 text-gray-400 text-sm">
+<span class="material-symbols-outlined text-primary mt-0.5">location_on</span>
+<span>123 Temple Street, Heritage Town,<br/>Puducherry, 605001, India</span>
+</li>
+<li class="flex items-center gap-3 text-gray-400 text-sm">
+<span class="material-symbols-outlined text-primary">call</span>
+<span>+91 413 222 1234</span>
+</li>
+<li class="flex items-center gap-3 text-gray-400 text-sm">
+<span class="material-symbols-outlined text-primary">mail</span>
+<span>office@murugatemple.org</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-gray-500 text-sm">© 2024 Temple of God Muruga. All rights reserved.</p>
+<div class="flex gap-4">
+<a class="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-primary hover:text-black transition-all" href="#">
+<svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg>
+</a>
+<a class="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-primary hover:text-black transition-all" href="#">
+<svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg>
+</a>
+<a class="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-primary hover:text-black transition-all" href="#">
+<svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.072 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg>
+</a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>
