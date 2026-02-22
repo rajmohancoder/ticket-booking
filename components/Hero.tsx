@@ -25,7 +25,7 @@ export function Hero() {
                     <div className="flex flex-col justify-center gap-4 sm:flex-row">
                         <Link href="/ticket-booking">
                             <Button className="h-12 w-full bg-primary px-8 text-base font-bold text-black shadow-lg shadow-orange-500/20 transition-all hover:-translate-y-0.5 hover:bg-primary-dark sm:w-auto">
-                                Book Darshan Tickets
+                                {process.env.NEXT_PUBLIC_BOOK_DARSHAN_TEXT}
                             </Button>
                         </Link>
                         <Link href="/ritual-timings">
@@ -33,7 +33,7 @@ export function Hero() {
                                 variant="outline"
                                 className="h-12 w-full border-white/30 bg-white/10 px-8 text-base font-bold text-white backdrop-blur-md transition-all hover:bg-white/20 sm:w-auto"
                             >
-                                View Ritual Timings
+                                {process.env.NEXT_PUBLIC_VIEW_RITUAL_TEXT}
                             </Button>
                         </Link>
                     </div>
