@@ -1,6 +1,6 @@
 # Darshan Ticket Booking System
 
-A modern, responsive web application built with Next.js for booking and managing Darshan (temple viewing) tickets. The application provides a seamless user experience for viewing ritual timings and booking tickets.
+A modern, responsive web application built with Next.js for booking and managing Darshan (temple viewing) tickets. The application provides a seamless user experience for viewing ritual timings and booking tickets. Thanks
 
 ## Features
 
